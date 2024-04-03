@@ -33,6 +33,13 @@ module.exports = {
             type: 'asset/inline',
     
           },
+          {
+
+            test: /\.(woff|woff2|eot|ttf|otf)$/i,
+    
+            type: 'asset/resource',
+    
+          },
     
         ],
     

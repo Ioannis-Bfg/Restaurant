@@ -135,7 +135,7 @@ table {
 
 @font-face {
   font-family: "Greek";
-  src: url(../fonts/CaesarDressing-Regular.ttf) format("truetype");
+  src: url(./CaesarDressing-Regular.ttf) format("truetype");
 }
 
 /* Homepage/////////// */
