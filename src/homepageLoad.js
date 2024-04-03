@@ -15,7 +15,7 @@ export function HomepageLoad() {
     hero.setAttribute('id', 'hero');
     p_cont.setAttribute('id', 'pcontainer');
     container.setAttribute('id', 'homepagecontainer');
-    h1.textContent = 'TZATZIKI';
+    h1.textContent = `Zeus' Feast`;
 
     const myIcon = new Image();
     myIcon.src = Icon;
@@ -24,12 +24,16 @@ export function HomepageLoad() {
     quoteHeader.textContent = 'Quote of the owner'; 
     quoteHeader.setAttribute('id', 'quote-header');
 
-    quote.textContent = 'Sit laboris occaecat dolore Lorem officia laboris consequat esse irure consequat consequat commodo.Sit laboris occaecat dolore Lorem officia laboris consequat esse irure consequat consequat commodo.';
+    quote.textContent = '-Sit laboris occaecat dolore Lorem officia laboris consequat esse irure consequat consequat commodo.Sit laboris occaecat dolore Lorem officia laboris consequat esse irure consequat consequat commodo.';
   
     quote_box.appendChild(quote);
     quote_box.setAttribute('id', 'quote');
 
-    p.innerHTML = 'Exercitation do pariatur labore ex mollit officia. Fugiat labore qui commodo fugiat irure minim ad. Quis veniam ullamco irure ipsum laborum incididunt.<br><br>Esse sit pariatur proident sint magna. Irure in fugiat velit voluptate eiusmod adipisicing pariatur sit cupidatat. Aliqua dolore sit aliquip incididunt laborum veniam labore pariatur labore eu aute aute velit. Mollit sunt irure ullamco magna consequat eiusmod excepteur deserunt cillum ex Officia occaecat esse consequat amet consectetur quis anim Lorem fugiat non eu quis. Excepteur eiusmod nulla labore irure. Duis veniam incididunt anim reprehenderit ipsum do commodo consequat consectetur nisi consequat.';
+    p.innerHTML = `Nisi irure duis esse esse sunt. Amet est sint voluptate id eu do aute minim. Nostrud laborum consequat fugiat dolor excepteur id. Magna reprehenderit irure dolor sit officia aliqua esse do qui consectetur laboris reprehenderit pariatur.<br><br>
+    
+    Non sit magna exercitation commodo. Fugiat officia nostrud cupidatat ea esse non amet magna laboris laboris veniam nostrud anim. Tempor laboris et velit esse officia in irure eu sunt et culpa. Esse duis qui ullamco ut cillum esse minim laboris. Voluptate id est aliquip sit consequat aliqua occaecat consequat quis velit non esse duis. Culpa mollit commodo sint duis non et ad ipsum mollit excepteur.<br><br>
+
+    Nulla dolore nulla sunt irure reprehenderit excepteur culpa laboris nulla amet pariatur sunt ut dolore. Excepteur mollit ad ut labore id. Voluptate anim minim pariatur eu pariatur fugiat. Duis velit anim sit veniam. Eu veniam ea sint id aute. Aute officia culpa irure quis ex labore esse aliqua sunt culpa exercitation est. Non veniam irure anim reprehenderit cupidatat ex commodo.`;
 
     p_cont.appendChild(p);
     
