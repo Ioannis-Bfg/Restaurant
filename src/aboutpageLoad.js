@@ -1,4 +1,6 @@
-export function AboutPageLoad() {
+import Icon from './images/about.jpg';
+
+export function     AboutPageLoad() {
     const h1 = document.createElement('h1');
     const img = document.createElement('img');
     const p = document.createElement('p');
@@ -7,16 +9,22 @@ export function AboutPageLoad() {
     const p_cont=document.createElement('div');
     const hero=document.createElement('div');
 
+
     hero.setAttribute('id','hero');
     p_cont.setAttribute('id','pcontainer')
     container.setAttribute('id','homepagecontainer')
     h1.textContent = 'About';
-    img.src = "../images/restaurant.jpg";
+
+    const myIcon = new Image();
+    myIcon.src = Icon;
+  
+  
+    
     p.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quibusdam quam doloremque consequatur nemo, sed facere eveniet Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quibusdam quam doloremque consequatur nemo, sed facere eveniet Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quibusdam quam doloremque consequatur nemo, sed facere eveniet';
 
     p_cont.appendChild(p);
     
-    hero.appendChild(img);
+    hero.appendChild(myIcon);
     hero.appendChild(p_cont);
     
     container.appendChild(h1);

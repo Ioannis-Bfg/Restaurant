@@ -3,6 +3,7 @@ import {MenuPageLoad} from './menupageLoad.js';
 import './style.css';
 import {AboutPageLoad} from './aboutpageLoad.js';
 
+
 const content=document.querySelector('#content');
 const home_button=document.querySelector('#home');
 const menu_button=document.querySelector('#menu');
